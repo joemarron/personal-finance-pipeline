@@ -1,0 +1,4 @@
+/airflow-docker/root.crt
+/airflow-docker/dags/.env
+/airflow-docker/logs
+/airflow-docker/plugins

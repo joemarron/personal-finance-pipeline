@@ -1,0 +1,4 @@
+python-dotenv==0.20.0
+requests==2.27.1
+pymysql==1.0.2
+sqlalchemy-cockroachdb==2.0.1
