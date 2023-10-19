@@ -15,7 +15,7 @@ default_args = {
     'start_date': datetime(2023, 10, 16),
 }
 
-dag = DAG('insert_transactions_to_mysql_dag',
+dag = DAG('insert_transactions_to_CockroachDB',
           default_args=default_args,
           schedule_interval='0 7 * * *',  # Set the schedule_interval at 7am daily
           catchup=False)
