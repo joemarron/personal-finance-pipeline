@@ -2,8 +2,8 @@
 /airflow-docker/dags/.env
 /airflow-docker/logs
 /airflow-docker/plugins
-net_worths.csv
-net_worth_updates.py
-tracker_report.pbix
-tracker_report_synth.pbix
+/net_worths.csv
+/net_worth_updates.py
+/tracker_report.pbix
+/tracker_report_synth.pbix
 /__pycache__
