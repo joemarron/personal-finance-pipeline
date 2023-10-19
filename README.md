@@ -13,4 +13,5 @@ The schema design below shows how the CockroachDB database was set up. Transacti
 ![db_schema](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/schema.png)
 
 ## ETL Pipeline
-![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/AIRFLOW_DAG.png)
+
+![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/AF_DAG.png)
