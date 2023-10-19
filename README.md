@@ -15,8 +15,11 @@ The schema design below shows how the CockroachDB database was set up. Transacti
 ## ETL Pipeline
 Apache-Airflow has been utilised to automate the transaction inserts into the CockroachDB database on a daily basis at 7:00am. This process automates the following tasks:
 1. Extract transactions for given bank accounts.
-2. Upload transactions into database *#temp* table.
-3. Transform *#temp* table rows into transaction tables, inserting appropriate subcategory_id
-4. Check and remove any duplicated rows based on the *text_id* column value
+2. Upload transactions into database ***#temp*** table.
+3. Transform ***#temp*** table rows into transaction tables, inserting appropriate subcategory_id
+4. Check and remove any duplicated rows based on the ***text_id*** column value
 
 ![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/AF_DAG.png)
+
+## Power BI Dashboard
+![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/POWERBI_EXAMPLE.png)
