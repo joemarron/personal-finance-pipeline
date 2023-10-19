@@ -4,7 +4,7 @@ This repo documents the pipeline built to download and manage our personal finan
 
 
 ### Pipeline
-![pipeline](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/pipeline.png)
+![pipeline](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/data_pipeline.png)
 
 ### Data Model
 ![db_schema](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/schema.png)
