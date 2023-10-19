@@ -14,7 +14,7 @@ The schema design below shows how the CockroachDB database was set up. Transacti
 ![db_schema](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/schema.png)
 
 ## ETL Pipeline
-Apache-Airflow has been utilised to automate the transaction inserts into the CockroachDB database on a daily basis at 7:00am. This process automates the following tasks:
+Apache-Airflow has been utilised to automate the transaction inserts into the CockroachDB database on a daily basis at 7:00am. The implemented DAG automates the following tasks:
 1. Extract transactions for given bank accounts.
 2. Upload transactions into database ***#temp*** table.
 3. Transform ***#temp*** table rows into transaction tables, inserting appropriate subcategory_id
@@ -23,5 +23,9 @@ Apache-Airflow has been utilised to automate the transaction inserts into the Co
 ![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/AF_DAG.png)
 
 ## Power BI Report
-The below shows a version of the Power BI report created to track both current month expenditure against budgets and overall net worth, **with fabricated data**.
+The below shows a version of the Power BI report created to track both current month expenditure against given budgeted categories and overall net worth, **with fabricated data**.
+
 ![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/POWERBI_DASHBOARD_EXAMPLE.png)
+
+### FURTHER WORK
+In the future, I will implement a data warehousing solution to provide more in depth analytics and track progress against financial targets. I will also incorporate an automated email that can be sent to us each morning when the DAG run completes, which summarises budgets remaining and suggests how to spread remaining budgeted amounts.
