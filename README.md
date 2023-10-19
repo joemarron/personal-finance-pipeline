@@ -21,5 +21,6 @@ Apache-Airflow has been utilised to automate the transaction inserts into the Co
 
 ![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/AF_DAG.png)
 
-## Power BI Dashboard
-![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/POWERBI_EXAMPLE.png)
+## Power BI Report
+The below shows a version of the Power BI report created to track both current month expenditure against budgets and overall net worth, **with fabricated data**.
+![airflow_png](https://github.com/joemarron/personal-finance-pipeline/blob/main/misc/POWERBI_DASHBOARD_EXAMPLE.png)
